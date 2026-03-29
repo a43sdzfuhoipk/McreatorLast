@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "end_redefined:enderite_upgrade_template",
+  "base": "minecraft:netherite_pickaxe",
+  "addition": "end_redefined:enderite",
+  "result": {
+    "id": "end_redefined:enderited_pickaxe"
+  }
+}

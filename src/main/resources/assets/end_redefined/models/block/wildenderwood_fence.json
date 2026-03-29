@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "end_redefined:block/wildenderwood_planks",
+    "particle": "end_redefined:block/wildenderwood_planks"
+  },
+  "render_type": "solid"
+}

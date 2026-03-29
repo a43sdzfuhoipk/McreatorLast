@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "end_redefined:block/stripped_wildenderwood_log_top",
+    "up": "end_redefined:block/stripped_wildenderwood_log_top",
+    "north": "end_redefined:block/stripped_wildenderwood_log",
+    "east": "end_redefined:block/stripped_wildenderwood_log",
+    "south": "end_redefined:block/stripped_wildenderwood_log",
+    "west": "end_redefined:block/stripped_wildenderwood_log",
+    "particle": "end_redefined:block/stripped_wildenderwood_log_top"
+  },
+  "render_type": "solid"
+}

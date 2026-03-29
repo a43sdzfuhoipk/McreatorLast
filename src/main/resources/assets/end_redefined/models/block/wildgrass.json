@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "end_redefined:block/wildgrass",
+    "particle": "end_redefined:block/wildgrass"
+  },
+  "render_type": "cutout"
+}

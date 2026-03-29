@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    "#end_redefined:wildenderwood_logs"
+  ],
+  "result": {
+    "id": "end_redefined:wildenderwood_planks",
+    "count": 4
+  }
+}

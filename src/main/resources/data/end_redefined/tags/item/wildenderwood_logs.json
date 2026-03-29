@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "end_redefined:wildenderwood_wood",
+    "end_redefined:wildenderwood_log",
+    "end_redefined:stripped_wildenderwood_wood",
+    "end_redefined:stripped_wildenderwood_log"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "_fv": 79,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "End Villager",
+    "pointOfInterest": {
+      "value": "Blocks.END_ROD"
+    },
+    "actionSound": {
+      "value": "ambient.cave"
+    },
+    "hat": "None",
+    "professionTextureFile": "plains.png",
+    "zombifiedProfessionTextureFile": "villager.png"
+  }
+}

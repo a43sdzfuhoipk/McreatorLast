@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "end_redefined:wildenderwood_planks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "end_redefined:wildenderwood_fence",
+    "count": 3
+  }
+}

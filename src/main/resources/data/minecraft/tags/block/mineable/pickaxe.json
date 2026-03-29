@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "end_redefined:endgrass_wild",
+    "end_redefined:endgrass",
+    "end_redefined:enderite_ore",
+    "end_redefined:enderite_block"
+  ]
+}

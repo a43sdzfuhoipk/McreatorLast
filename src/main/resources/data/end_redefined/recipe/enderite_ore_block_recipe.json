@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "end_redefined:enderite"
+  },
+  "result": {
+    "id": "end_redefined:enderite_block",
+    "count": 1
+  }
+}

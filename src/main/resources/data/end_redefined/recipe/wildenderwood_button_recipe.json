@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    "end_redefined:wildenderwood_planks"
+  ],
+  "result": {
+    "id": "end_redefined:wildenderwood_button",
+    "count": 1
+  }
+}

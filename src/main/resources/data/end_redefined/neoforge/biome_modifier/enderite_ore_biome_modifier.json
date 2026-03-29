@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "end_redefined:endbiome_01",
+    "end_redefined:biome"
+  ],
+  "features": "end_redefined:enderite_ore",
+  "step": "underground_ores"
+}

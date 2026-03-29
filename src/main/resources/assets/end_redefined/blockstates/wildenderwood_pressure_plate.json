@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "end_redefined:block/wildenderwood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "end_redefined:block/wildenderwood_pressure_plate_down"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "end_redefined:enderite_ore",
+    "end_redefined:enderite_block"
+  ]
+}

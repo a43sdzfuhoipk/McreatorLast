@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "end_redefined:block/wildenderwood_slab"
+    },
+    "type=top": {
+      "model": "end_redefined:block/wildenderwood_slab_top"
+    },
+    "type=double": {
+      "model": "end_redefined:block/wildenderwood_slab_full"
+    }
+  }
+}

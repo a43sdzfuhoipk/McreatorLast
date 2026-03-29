@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "end_redefined:enderite",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "end_redefined:enderited_sword",
+    "count": 1
+  }
+}

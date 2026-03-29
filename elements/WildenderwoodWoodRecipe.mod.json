@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:WildenderwoodLog"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WildenderwoodLog"
+      },
+      {
+        "value": "CUSTOM:WildenderwoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WildenderwoodLog"
+      },
+      {
+        "value": "CUSTOM:WildenderwoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WildenderwoodWood"
+    },
+    "name": "wildenderwood_wood_recipe",
+    "namespace": "mod"
+  }
+}

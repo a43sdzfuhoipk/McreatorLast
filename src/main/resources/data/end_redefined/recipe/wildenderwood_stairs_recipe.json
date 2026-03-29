@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "end_redefined:wildenderwood_planks"
+  },
+  "result": {
+    "id": "end_redefined:wildenderwood_stairs",
+    "count": 4
+  }
+}

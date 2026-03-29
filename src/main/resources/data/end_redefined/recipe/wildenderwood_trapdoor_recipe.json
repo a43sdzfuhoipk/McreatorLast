@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_trapdoor",
+  "category": "redstone",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "end_redefined:wildenderwood_planks"
+  },
+  "result": {
+    "id": "end_redefined:wildenderwood_trapdoor",
+    "count": 2
+  }
+}

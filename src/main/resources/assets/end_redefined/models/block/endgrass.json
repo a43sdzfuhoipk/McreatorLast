@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/end_stone",
+    "up": "end_redefined:block/endgrastop",
+    "north": "end_redefined:block/endgrassside",
+    "east": "end_redefined:block/endgrassside",
+    "south": "end_redefined:block/endgrassside",
+    "west": "end_redefined:block/endgrassside",
+    "particle": "minecraft:block/end_stone"
+  },
+  "render_type": "solid"
+}

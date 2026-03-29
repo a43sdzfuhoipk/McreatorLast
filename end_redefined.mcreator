@@ -1,0 +1,1522 @@
+{
+  "mod_elements": [
+    {
+      "name": "EndVillager",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_villager",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Enderite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/models/item/enderite.json",
+          "src/main/java/net/mcreator/endredefined/item/EnderiteItem.java",
+          "src/main/resources/assets/end_redefined/items/enderite.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EnderiteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/neoforge/biome_modifier/enderite_ore_biome_modifier.json",
+          "src/main/resources/assets/end_redefined/blockstates/enderite_ore.json",
+          "src/main/resources/assets/end_redefined/models/block/enderite_ore.json",
+          "src/main/java/net/mcreator/endredefined/block/EnderiteOreBlock.java",
+          "src/main/resources/data/end_redefined/worldgen/configured_feature/enderite_ore.json",
+          "src/main/resources/assets/end_redefined/models/item/enderite_ore.json",
+          "src/main/resources/assets/end_redefined/items/enderite_ore.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/enderite_ore.json",
+          "src/main/resources/data/end_redefined/worldgen/placed_feature/enderite_ore.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EnderiteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/models/block/enderite_block.json",
+          "src/main/java/net/mcreator/endredefined/block/EnderiteBlockBlock.java",
+          "src/main/resources/assets/end_redefined/blockstates/enderite_block.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/enderite_block.json",
+          "src/main/resources/assets/end_redefined/models/item/enderite_block.json",
+          "src/main/resources/assets/end_redefined/items/enderite_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EnderiteOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/advancement/recipes/enderite_ore_block_recipe.json",
+          "src/main/resources/data/end_redefined/recipe/enderite_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "EnderiteBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/advancement/recipes/enderite_block_ore_recipe.json",
+          "src/main/resources/data/end_redefined/recipe/enderite_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "EnderiteOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/advancement/recipes/enderite_ore_smelting.json",
+          "src/main/resources/data/end_redefined/recipe/enderite_ore_smelting.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "EndUpdate",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_update",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Endgrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endgrass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/loot_table/blocks/endgrass.json",
+          "src/main/resources/assets/end_redefined/models/block/endgrass.json",
+          "src/main/resources/assets/end_redefined/models/item/endgrass.json",
+          "src/main/resources/assets/end_redefined/blockstates/endgrass.json",
+          "src/main/resources/assets/end_redefined/items/endgrass.json",
+          "src/main/java/net/mcreator/endredefined/block/EndgrassBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Endgrasss",
+      "type": "endstone",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endgrasss",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Endbiome01",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endbiome_01",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/worldgen/placed_feature/endbiome_01_tree.json",
+          "src/main/resources/data/end_redefined/worldgen/configured_feature/endbiome_01_tree.json",
+          "src/main/resources/data/end_redefined/worldgen/biome/endbiome_01.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "Endbiome01inend",
+      "type": "endbiome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endbiome_01inend",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "EmotionalDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emotional_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/damage_type/emotional_damage.json"
+        ]
+      }
+    },
+    {
+      "name": "Chorusblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorusblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endredefined/block/ChorusblockBlock.java",
+          "src/main/resources/assets/end_redefined/blockstates/chorusblock.json",
+          "src/main/resources/assets/end_redefined/items/chorusblock.json",
+          "src/main/resources/assets/end_redefined/models/item/chorusblock.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/chorusblock.json",
+          "src/main/resources/assets/end_redefined/models/block/chorusblock.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Chorusflowerblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorusflowerblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/items/chorusflowerblock.json",
+          "src/main/resources/assets/end_redefined/models/block/chorusflowerblock.json",
+          "src/main/java/net/mcreator/endredefined/block/ChorusflowerblockBlock.java",
+          "src/main/resources/assets/end_redefined/models/item/chorusflowerblock.json",
+          "src/main/resources/assets/end_redefined/blockstates/chorusflowerblock.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/chorusflowerblock.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Chorusfruitblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorusfruitblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/items/chorusfruitblock.json",
+          "src/main/resources/assets/end_redefined/models/block/chorusfruitblock.json",
+          "src/main/resources/assets/end_redefined/models/item/chorusfruitblock.json",
+          "src/main/java/net/mcreator/endredefined/block/ChorusfruitblockBlock.java",
+          "src/main/resources/assets/end_redefined/blockstates/chorusfruitblock.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/chorusfruitblock.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EnderArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endredefined/item/EnderArmorItem.java",
+          "src/main/resources/assets/end_redefined/equipment/ender_armor.json",
+          "src/main/resources/assets/end_redefined/models/item/ender_armor_boots.json",
+          "src/main/resources/assets/end_redefined/items/ender_armor_boots.json",
+          "src/main/resources/assets/end_redefined/items/ender_armor_leggings.json",
+          "src/main/resources/assets/end_redefined/models/item/ender_armor_chestplate.json",
+          "src/main/resources/assets/end_redefined/items/ender_armor_helmet.json",
+          "src/main/resources/assets/end_redefined/items/ender_armor_chestplate.json",
+          "src/main/resources/assets/end_redefined/models/item/ender_armor_helmet.json",
+          "src/main/resources/assets/end_redefined/models/item/ender_armor_leggings.json",
+          "src/main/java/net/mcreator/endredefined/client/renderer/item/EnderArmorArmor.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EnderArmorTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_armor_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/endredefined/procedures/EnderArmorTickEventProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TeleportOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/endredefined/procedures/TeleportOnKeyPressedProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Teleport",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endredefined/network/TeleportMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "MaxTeleportRange",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "max_teleport_range",
+      "metadata": {
+        "type": "number",
+        "files": []
+      }
+    },
+    {
+      "name": "TeleportbarDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleportbar_display_overlay_ingame",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/endredefined/procedures/TeleportbarDisplayOverlayIngameProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Teleportbar5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleportbar_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/endredefined/procedures/Teleportbar5Procedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Teleportbar4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleportbar_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/endredefined/procedures/Teleportbar4Procedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Teleportbar3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleportbar_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/endredefined/procedures/Teleportbar3Procedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Teleportbar2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleportbar_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/endredefined/procedures/Teleportbar2Procedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Teleportbar1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleportbar_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/endredefined/procedures/Teleportbar1Procedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Teleportbar",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleportbar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endredefined/client/screens/TeleportbarOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "TeleportChargeRecharge",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport_charge_recharge",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/endredefined/procedures/TeleportChargeRechargeProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EnderShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_shard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/items/ender_shard.json",
+          "src/main/resources/assets/end_redefined/models/item/ender_shard.json",
+          "src/main/java/net/mcreator/endredefined/item/EnderShardItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Biome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endredefined/world/features/treedecorators/BiomeFruitDecorator.java",
+          "src/main/resources/data/end_redefined/worldgen/biome/biome.json",
+          "src/main/resources/data/end_redefined/worldgen/placed_feature/biome_tree.json",
+          "src/main/resources/data/end_redefined/worldgen/configured_feature/biome_tree.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "A",
+      "type": "endbiome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "EndgrassWild",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endgrass_wild",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/blockstates/endgrass_wild.json",
+          "src/main/resources/assets/end_redefined/models/block/endgrass_wild.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/endgrass_wild.json",
+          "src/main/java/net/mcreator/endredefined/block/EndgrassWildBlock.java",
+          "src/main/resources/assets/end_redefined/models/item/endgrass_wild.json",
+          "src/main/resources/assets/end_redefined/items/endgrass_wild.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WildenderwoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_log.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/wildenderwood_log.json",
+          "src/main/resources/assets/end_redefined/blockstates/wildenderwood_log.json",
+          "src/main/resources/assets/end_redefined/items/wildenderwood_log.json",
+          "src/main/java/net/mcreator/endredefined/block/WildenderwoodLogBlock.java",
+          "src/main/resources/assets/end_redefined/models/item/wildenderwood_log.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WildenderwoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_wood.json",
+          "src/main/java/net/mcreator/endredefined/block/WildenderwoodWoodBlock.java",
+          "src/main/resources/assets/end_redefined/blockstates/wildenderwood_wood.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/wildenderwood_wood.json",
+          "src/main/resources/assets/end_redefined/models/item/wildenderwood_wood.json",
+          "src/main/resources/assets/end_redefined/items/wildenderwood_wood.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "StrippedWildenderwoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_wildenderwood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/blockstates/stripped_wildenderwood_log.json",
+          "src/main/java/net/mcreator/endredefined/block/StrippedWildenderwoodLogBlock.java",
+          "src/main/resources/assets/end_redefined/items/stripped_wildenderwood_log.json",
+          "src/main/resources/assets/end_redefined/models/item/stripped_wildenderwood_log.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/stripped_wildenderwood_log.json",
+          "src/main/resources/assets/end_redefined/models/block/stripped_wildenderwood_log.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "StrippedWildenderwoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_wildenderwood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/models/block/stripped_wildenderwood_wood.json",
+          "src/main/resources/assets/end_redefined/blockstates/stripped_wildenderwood_wood.json",
+          "src/main/java/net/mcreator/endredefined/block/StrippedWildenderwoodWoodBlock.java",
+          "src/main/resources/assets/end_redefined/models/item/stripped_wildenderwood_wood.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/stripped_wildenderwood_wood.json",
+          "src/main/resources/assets/end_redefined/items/stripped_wildenderwood_wood.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WildenderwoodPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/items/wildenderwood_planks.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/wildenderwood_planks.json",
+          "src/main/java/net/mcreator/endredefined/block/WildenderwoodPlanksBlock.java",
+          "src/main/resources/assets/end_redefined/blockstates/wildenderwood_planks.json",
+          "src/main/resources/assets/end_redefined/models/item/wildenderwood_planks.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_planks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WildenderwoodLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/models/item/wildenderwood_leaves.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/wildenderwood_leaves.json",
+          "src/main/resources/assets/end_redefined/items/wildenderwood_leaves.json",
+          "src/main/java/net/mcreator/endredefined/block/WildenderwoodLeavesBlock.java",
+          "src/main/resources/assets/end_redefined/blockstates/wildenderwood_leaves.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_leaves.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WildenderwoodStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_stairs.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_stairs_inner.json",
+          "src/main/java/net/mcreator/endredefined/block/WildenderwoodStairsBlock.java",
+          "src/main/resources/assets/end_redefined/blockstates/wildenderwood_stairs.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/wildenderwood_stairs.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_stairs_outer.json",
+          "src/main/resources/assets/end_redefined/items/wildenderwood_stairs.json",
+          "src/main/resources/assets/end_redefined/models/item/wildenderwood_stairs.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WildenderwoodSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/items/wildenderwood_slab.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/wildenderwood_slab.json",
+          "src/main/resources/assets/end_redefined/blockstates/wildenderwood_slab.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_slab_top.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_slab_full.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_slab.json",
+          "src/main/resources/assets/end_redefined/models/item/wildenderwood_slab.json",
+          "src/main/java/net/mcreator/endredefined/block/WildenderwoodSlabBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WildenderwoodFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/loot_table/blocks/wildenderwood_fence.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_fence_inventory.json",
+          "src/main/java/net/mcreator/endredefined/block/WildenderwoodFenceBlock.java",
+          "src/main/resources/assets/end_redefined/models/item/wildenderwood_fence.json",
+          "src/main/resources/assets/end_redefined/items/wildenderwood_fence.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_fence.json",
+          "src/main/resources/assets/end_redefined/blockstates/wildenderwood_fence.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_fence_post.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WildenderwoodFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/models/item/wildenderwood_fence_gate.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_fence_gate.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_fence_gate_open.json",
+          "src/main/resources/assets/end_redefined/blockstates/wildenderwood_fence_gate.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_fence_gate_wall.json",
+          "src/main/resources/assets/end_redefined/items/wildenderwood_fence_gate.json",
+          "src/main/java/net/mcreator/endredefined/block/WildenderwoodFenceGateBlock.java",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_fence_gate_wall_open.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/wildenderwood_fence_gate.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WildenderwoodDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_door_top_left.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_door_top_right.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_door_bottom_left.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_door_top_left_open.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/wildenderwood_door.json",
+          "src/main/resources/assets/end_redefined/models/item/wildenderwood_door.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_door_bottom_right.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_door_bottom_left_open.json",
+          "src/main/resources/assets/end_redefined/blockstates/wildenderwood_door.json",
+          "src/main/resources/assets/end_redefined/items/wildenderwood_door.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_door_bottom_right_open.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_door_top_right_open.json",
+          "src/main/java/net/mcreator/endredefined/block/WildenderwoodDoorBlock.java"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "WildenderwoodTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_trapdoor_top.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_trapdoor_open.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_trapdoor.json",
+          "src/main/java/net/mcreator/endredefined/block/WildenderwoodTrapdoorBlock.java",
+          "src/main/resources/data/end_redefined/loot_table/blocks/wildenderwood_trapdoor.json",
+          "src/main/resources/assets/end_redefined/items/wildenderwood_trapdoor.json",
+          "src/main/resources/assets/end_redefined/blockstates/wildenderwood_trapdoor.json",
+          "src/main/resources/assets/end_redefined/models/item/wildenderwood_trapdoor.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WildenderwoodPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/blockstates/wildenderwood_pressure_plate.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/wildenderwood_pressure_plate.json",
+          "src/main/resources/assets/end_redefined/models/item/wildenderwood_pressure_plate.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_pressure_plate.json",
+          "src/main/java/net/mcreator/endredefined/block/WildenderwoodPressurePlateBlock.java",
+          "src/main/resources/assets/end_redefined/items/wildenderwood_pressure_plate.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WildenderwoodButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/models/item/wildenderwood_button.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_button_pressed.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/wildenderwood_button.json",
+          "src/main/resources/assets/end_redefined/blockstates/wildenderwood_button.json",
+          "src/main/resources/assets/end_redefined/items/wildenderwood_button.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_button.json",
+          "src/main/resources/assets/end_redefined/models/block/wildenderwood_button_inventory.json",
+          "src/main/java/net/mcreator/endredefined/block/WildenderwoodButtonBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WildenderwoodWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/recipe/wildenderwood_wood_recipe.json",
+          "src/main/resources/data/end_redefined/advancement/recipes/wildenderwood_wood_recipe.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "StrippedWildenderwoodWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_wildenderwood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/recipe/stripped_wildenderwood_wood_recipe.json",
+          "src/main/resources/data/end_redefined/advancement/recipes/stripped_wildenderwood_wood_recipe.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "WildenderwoodPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/recipe/wildenderwood_planks_recipe.json",
+          "src/main/resources/data/end_redefined/advancement/recipes/wildenderwood_planks_recipe.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "WildenderwoodStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/recipe/wildenderwood_stairs_recipe.json",
+          "src/main/resources/data/end_redefined/advancement/recipes/wildenderwood_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "WildenderwoodSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/recipe/wildenderwood_slab_recipe.json",
+          "src/main/resources/data/end_redefined/advancement/recipes/wildenderwood_slab_recipe.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "WildenderwoodFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/recipe/wildenderwood_fence_recipe.json",
+          "src/main/resources/data/end_redefined/advancement/recipes/wildenderwood_fence_recipe.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "WildenderwoodFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/recipe/wildenderwood_fence_gate_recipe.json",
+          "src/main/resources/data/end_redefined/advancement/recipes/wildenderwood_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "WildenderwoodDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/recipe/wildenderwood_door_recipe.json",
+          "src/main/resources/data/end_redefined/advancement/recipes/wildenderwood_door_recipe.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "WildenderwoodTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/advancement/recipes/wildenderwood_trapdoor_recipe.json",
+          "src/main/resources/data/end_redefined/recipe/wildenderwood_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "WildenderwoodPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/advancement/recipes/wildenderwood_pressure_plate_recipe.json",
+          "src/main/resources/data/end_redefined/recipe/wildenderwood_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "WildenderwoodButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildenderwood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/recipe/wildenderwood_button_recipe.json",
+          "src/main/resources/data/end_redefined/advancement/recipes/wildenderwood_button_recipe.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "Teleporteffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporteffect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endredefined/potion/TeleporteffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Wildgrass",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildgrass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/worldgen/configured_feature/wildgrass.json",
+          "src/main/resources/data/end_redefined/loot_table/blocks/wildgrass.json",
+          "src/main/resources/assets/end_redefined/models/block/wildgrass.json",
+          "src/main/resources/assets/end_redefined/items/wildgrass.json",
+          "src/main/resources/assets/end_redefined/blockstates/wildgrass.json",
+          "src/main/java/net/mcreator/endredefined/block/WildgrassBlock.java",
+          "src/main/resources/assets/end_redefined/models/item/wildgrass.json",
+          "src/main/resources/data/end_redefined/neoforge/biome_modifier/wildgrass_biome_modifier.json",
+          "src/main/resources/data/end_redefined/worldgen/placed_feature/wildgrass.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Fireofender",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireofender",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endredefined/item/FireofenderItem.java",
+          "src/main/resources/assets/end_redefined/items/fireofender.json",
+          "src/main/resources/assets/end_redefined/models/item/fireofender.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "PieceOfCoal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piece_of_coal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/items/piece_of_coal.json",
+          "src/main/resources/assets/end_redefined/models/item/piece_of_coal.json",
+          "src/main/java/net/mcreator/endredefined/item/PieceOfCoalItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Endfire",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endfire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/recipe/endfire.json",
+          "src/main/resources/data/end_redefined/advancement/recipes/endfire.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "EnderitedPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderited_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endredefined/item/EnderitedPickaxeItem.java",
+          "src/main/resources/assets/end_redefined/items/enderited_pickaxe.json",
+          "src/main/resources/assets/end_redefined/models/item/enderited_pickaxe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EnderitedAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderited_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endredefined/item/EnderitedAxeItem.java",
+          "src/main/resources/assets/end_redefined/items/enderited_axe.json",
+          "src/main/resources/assets/end_redefined/models/item/enderited_axe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EnderitedSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderited_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/models/item/enderited_sword.json",
+          "src/main/java/net/mcreator/endredefined/item/EnderitedSwordItem.java",
+          "src/main/resources/assets/end_redefined/items/enderited_sword.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EnderitedShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderited_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endredefined/item/EnderitedShovelItem.java",
+          "src/main/resources/assets/end_redefined/items/enderited_shovel.json",
+          "src/main/resources/assets/end_redefined/models/item/enderited_shovel.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EnderitedHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderited_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_redefined/items/enderited_hoe.json",
+          "src/main/java/net/mcreator/endredefined/item/EnderitedHoeItem.java",
+          "src/main/resources/assets/end_redefined/models/item/enderited_hoe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EnderitedPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderited_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/recipe/enderited_pickaxe_recipe.json",
+          "src/main/resources/data/end_redefined/advancement/recipes/enderited_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EnderitedAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderited_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/advancement/recipes/enderited_axe_recipe.json",
+          "src/main/resources/data/end_redefined/recipe/enderited_axe_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EnderitedSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderited_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/recipe/enderited_sword_recipe.json",
+          "src/main/resources/data/end_redefined/advancement/recipes/enderited_sword_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EnderitedShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderited_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/recipe/enderited_shovel_recipe.json",
+          "src/main/resources/data/end_redefined/advancement/recipes/enderited_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EnderitedHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderited_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_redefined/advancement/recipes/enderited_hoe_recipe.json",
+          "src/main/resources/data/end_redefined/recipe/enderited_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EnderiteUpgradeTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_upgrade_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endredefined/item/EnderiteUpgradeTemplateItem.java",
+          "src/main/resources/assets/end_redefined/models/item/enderite_upgrade_template.json",
+          "src/main/resources/assets/end_redefined/items/enderite_upgrade_template.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "FireofenderPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireofender_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/endredefined/procedures/FireofenderPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/Items"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "TeleportCharge",
+      "type": "number",
+      "scope": "map",
+      "value": "4.0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:EndgrassWild",
+      "~CUSTOM:Endgrass",
+      "~CUSTOM:EnderiteBlock",
+      "~CUSTOM:EnderiteOre"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:EnderiteBlock",
+      "~CUSTOM:EnderiteOre"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:EndgrassWild",
+      "~CUSTOM:Endgrass"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:EnderArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:EnderArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:EnderArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:EnderArmor.boots"
+    ],
+    "ITEMS:end_redefined:ender_armor_repair_items": [
+      "~CUSTOM:Enderite"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:WildenderwoodButton",
+      "~CUSTOM:WildenderwoodPressurePlate",
+      "~CUSTOM:WildenderwoodTrapdoor",
+      "~CUSTOM:WildenderwoodDoor",
+      "~CUSTOM:WildenderwoodFenceGate",
+      "~CUSTOM:WildenderwoodFence",
+      "~CUSTOM:WildenderwoodSlab",
+      "~CUSTOM:WildenderwoodStairs",
+      "~CUSTOM:WildenderwoodPlanks",
+      "~CUSTOM:StrippedWildenderwoodWood",
+      "~CUSTOM:StrippedWildenderwoodLog",
+      "~CUSTOM:WildenderwoodWood",
+      "~CUSTOM:WildenderwoodLog"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:WildenderwoodLeaves"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:WildenderwoodStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:WildenderwoodSlab"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:WildenderwoodFence"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:WildenderwoodDoor"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~CUSTOM:WildenderwoodTrapdoor"
+    ],
+    "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~CUSTOM:WildenderwoodPressurePlate"
+    ],
+    "BLOCKS:minecraft:wooden_buttons": [
+      "~CUSTOM:WildenderwoodButton"
+    ],
+    "BLOCKS:mod:wildenderwood_logs": [
+      "CUSTOM:WildenderwoodLog",
+      "CUSTOM:WildenderwoodWood",
+      "CUSTOM:StrippedWildenderwoodLog",
+      "CUSTOM:StrippedWildenderwoodWood"
+    ],
+    "BLOCKS:minecraft:logs_that_burn": [
+      "TAG:mod:wildenderwood_logs"
+    ],
+    "BLOCKS:minecraft:planks": [
+      "CUSTOM:WildenderwoodPlanks"
+    ],
+    "ITEMS:mod:wildenderwood_logs": [
+      "CUSTOM:WildenderwoodLog",
+      "CUSTOM:WildenderwoodWood",
+      "CUSTOM:StrippedWildenderwoodLog",
+      "CUSTOM:StrippedWildenderwoodWood"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "TAG:mod:wildenderwood_logs"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:WildenderwoodPlanks"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Wildgrass"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:EnderitedPickaxe"
+    ],
+    "ITEMS:end_redefined:enderited_pickaxe_repair_items": [
+      "~CUSTOM:Fireofender"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:EnderitedAxe"
+    ],
+    "ITEMS:end_redefined:enderited_axe_repair_items": [
+      "~CUSTOM:Fireofender"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:EnderitedSword"
+    ],
+    "ITEMS:end_redefined:enderited_sword_repair_items": [
+      "~CUSTOM:Fireofender"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:EnderitedShovel"
+    ],
+    "ITEMS:end_redefined:enderited_shovel_repair_items": [
+      "~CUSTOM:Enderite"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:EnderitedHoe"
+    ],
+    "ITEMS:end_redefined:enderited_hoe_repair_items": [
+      "~CUSTOM:Fireofender"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "entity.villager.end_redefined.end_villager": "End Villager",
+      "item.end_redefined.enderite": "Enderite",
+      "item.end_redefined.enderite_ore": "Enderite Ore",
+      "item.end_redefined.enderite_block": "Block of Enderite",
+      "item_group.end_redefined.end_update": "End Update",
+      "item.end_redefined.endgrass": "Grass of Ender",
+      "biome.end_redefined.endbiome_01": "Endbiome 0 1",
+      "death.attack.emotional_damage": "%1$s got damaged emotionally.",
+      "death.attack.emotional_damage.item": "%1$s was damaged emotionally by %2$s using %3$s",
+      "death.attack.emotional_damage.player": "%1$s got damaged emotionally whilst trying to escape %2$s",
+      "item.end_redefined.chorusblock": "Chorusblock",
+      "item.end_redefined.chorusflowerblock": "Chorusblock",
+      "item.end_redefined.chorusfruitblock": "Chorusblock",
+      "item.end_redefined.ender_armor_chestplate": "Chestplate of Ender",
+      "item.end_redefined.ender_armor_boots": "Boots of Ender",
+      "item.end_redefined.ender_armor_helmet": "Helmet of Ender",
+      "item.end_redefined.ender_armor_leggings": "Leggings of Ender",
+      "key.end_redefined.teleport": "Teleport",
+      "gamerule.maxTeleportRange.description": "The maximum Range you can teleport with Full Enderite Armor",
+      "gamerule.maxTeleportRange": "Maximum Teleport Range",
+      "item.end_redefined.ender_shard": "Ender Shard",
+      "biome.end_redefined.biome": "Biome",
+      "item.end_redefined.endgrass_wild": "Grass of Ender",
+      "item.end_redefined.wildenderwood_log": "Log of the wild End",
+      "item.end_redefined.wildenderwood_wood": "Wood of the wild End",
+      "item.end_redefined.stripped_wildenderwood_log": "Stripped Log of the wild End",
+      "item.end_redefined.stripped_wildenderwood_wood": "Stripped Wood of the wild End",
+      "item.end_redefined.wildenderwood_planks": "Planks of the wild End",
+      "item.end_redefined.wildenderwood_leaves": "Leaves of the wild End",
+      "item.end_redefined.wildenderwood_stairs": "Stairs of the wild End",
+      "item.end_redefined.wildenderwood_slab": "Slab of the wild End",
+      "item.end_redefined.wildenderwood_fence": "Fence of the wild End",
+      "item.end_redefined.wildenderwood_fence_gate": "Fence Gate of the wild End",
+      "item.end_redefined.wildenderwood_door": "Door of the wild End",
+      "item.end_redefined.wildenderwood_trapdoor": "Trapdoor of the wild End",
+      "item.end_redefined.wildenderwood_pressure_plate": "Pressure Plate of the wild End",
+      "item.end_redefined.wildenderwood_button": "Button of the wild End",
+      "effect.end_redefined.teleporteffect": "Teleporting",
+      "item.end_redefined.wildgrass": "Wild Grass",
+      "item.end_redefined.fireofender": "Fire of Ender",
+      "item.end_redefined.piece_of_coal": "Coal of Ender",
+      "item.end_redefined.enderited_pickaxe": "Enderited Pickaxe",
+      "item.end_redefined.enderited_axe": "Enderited Axe",
+      "item.end_redefined.enderited_sword": "Enderited Sword",
+      "item.end_redefined.enderited_shovel": "Enderited Shovel",
+      "item.end_redefined.enderited_hoe": "Enderited Hoe",
+      "item.end_redefined.enderite_upgrade_template": "Enderite Upgrade Template"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/endredefined/init/EndRedefinedModBiomes.java",
+      "src/main/java/net/mcreator/endredefined/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/endredefined/mixin/TheEndBiomeSourceMixin.java",
+      "src/main/java/net/mcreator/endredefined/endbiomes/TheEndBiomes.java",
+      "src/main/java/net/mcreator/endredefined/mixin/ChunkNoiseSamplerMixin.java",
+      "src/main/java/net/mcreator/endredefined/init/EndRedefinedModEndBiomes.java",
+      "src/main/java/net/mcreator/endredefined/endbiomes/TheEndBiomeData.java",
+      "src/main/java/net/mcreator/endredefined/mixin/ClimateSamplerMixin.java",
+      "src/main/java/net/mcreator/endredefined/endbiomes/SamplerHooks.java",
+      "src/main/java/net/mcreator/endredefined/mixin/NoiseConfigMixin.java",
+      "src/main/java/net/mcreator/endredefined/mixin/NoiseGeneratorSettingsAccess.java",
+      "src/main/java/net/mcreator/endredefined/mixin/BiomeSourceMixin.java",
+      "src/main/java/net/mcreator/endredefined/init/EndRedefinedModSurfaceRules.java",
+      "src/main/java/net/mcreator/endredefined/endbiomes/WeightedPicker.java",
+      "src/main/java/net/mcreator/endredefined/mixin/ChorusPlantBlockMixin.java",
+      "src/main/java/net/mcreator/endredefined/mixin/ChorusFlowerBlockMixin.java",
+      "src/main/java/net/mcreator/endredefined/init/EndRedefinedModGameRules.java",
+      "src/main/java/net/mcreator/endredefined/init/EndRedefinedModKeyMappings.java",
+      "src/main/java/net/mcreator/endredefined/init/EndRedefinedModMobEffects.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
+      "src/main/java/net/mcreator/endredefined/init/EndRedefinedModVillagerProfessions.java",
+      "src/main/java/net/mcreator/endredefined/init/EndRedefinedModBlocks.java",
+      "src/main/java/net/mcreator/endredefined/init/EndRedefinedModItems.java",
+      "src/main/java/net/mcreator/endredefined/network/EndRedefinedModVariables.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/endredefined/init/EndRedefinedModTabs.java",
+      "src/main/java/net/mcreator/endredefined/EndRedefinedMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/end_redefined.mixins.json",
+      "src/main/resources/META-INF/accesstransformer.cfg"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Recipies",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "end_redefined",
+    "modName": "End Redefined",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "modElementsPackage": "net.mcreator.endredefined"
+  },
+  "mcreatorVersion": 202500345720
+}

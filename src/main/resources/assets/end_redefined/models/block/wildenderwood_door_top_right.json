@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_right",
+  "textures": {
+    "particle": "end_redefined:block/wildenderwood_door_bottom",
+    "bottom": "end_redefined:block/wildenderwood_door_bottom",
+    "top": "end_redefined:block/wildenderwood_door_top"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,91 @@
+{
+  "_fv": 79,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "teleport5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Teleportbar5"
+          },
+          "anchorPoint": "TOP_RIGHT",
+          "x": 393,
+          "y": 8,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "teleport4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Teleportbar4"
+          },
+          "anchorPoint": "CENTER",
+          "x": 393,
+          "y": 8,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "teleport3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Teleportbar3"
+          },
+          "anchorPoint": "CENTER",
+          "x": 393,
+          "y": 8,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "teleport2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Teleportbar2"
+          },
+          "anchorPoint": "CENTER",
+          "x": 393,
+          "y": 8,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "teleport1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Teleportbar1"
+          },
+          "anchorPoint": "CENTER",
+          "x": 393,
+          "y": 8,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "TeleportbarDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

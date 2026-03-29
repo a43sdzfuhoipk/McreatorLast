@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence_gate",
+  "category": "redstone",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "end_redefined:wildenderwood_planks"
+  },
+  "result": {
+    "id": "end_redefined:wildenderwood_fence_gate",
+    "count": 1
+  }
+}

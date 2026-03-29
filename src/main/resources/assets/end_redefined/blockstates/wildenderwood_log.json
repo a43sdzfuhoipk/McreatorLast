@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "end_redefined:block/wildenderwood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "end_redefined:block/wildenderwood_log"
+    },
+    "axis=z": {
+      "model": "end_redefined:block/wildenderwood_log",
+      "x": 90
+    }
+  }
+}

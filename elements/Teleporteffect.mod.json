@@ -1,0 +1,21 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Teleporting",
+    "icon": "teleporticon",
+    "color": {
+      "value": -1048321,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": "entity.endermen.teleport"
+    },
+    "isInstant": true,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": []
+  }
+}
