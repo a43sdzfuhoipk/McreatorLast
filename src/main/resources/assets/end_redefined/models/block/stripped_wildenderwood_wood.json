@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "end_redefined:block/stripped_wildenderwood_log",
-    "particle": "end_redefined:block/stripped_wildenderwood_log"
-  },
-  "render_type": "solid"
-}

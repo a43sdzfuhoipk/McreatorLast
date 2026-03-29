@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "end_redefined:block/enderite_ore02",
-    "particle": "end_redefined:block/enderite_ore02"
-  },
-  "render_type": "solid"
-}

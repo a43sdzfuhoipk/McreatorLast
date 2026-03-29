@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "minecraft:block/chorus_flower",
-    "particle": "minecraft:block/chorus_flower"
-  },
-  "render_type": "solid"
-}
